@@ -30,7 +30,7 @@ function verificar() {
       gênero = "Mulher"
       if (idade >= 0 && idade < 10) {
         // criança
-        img.setAttribute("src", "imagens/perfil-criança-feminino.jpg")
+        img.setAttribute("src", "imagens/perfil-criança-feminina.jpg")
       } else if (idade < 21) {
         // jovem
         img.setAttribute("src", "imagens/perfil-jovem-feminino.jpg")
@@ -39,11 +39,11 @@ function verificar() {
         img.setAttribute("src", "imagens/perfil-adulto-feminino.jpg")
       } else {
         //idoso
-        img.setAttribute("src", "imagens/perfil-idoso-feminino.jpg")
+        img.setAttribute("src", "imagens/perfil-idoso-feminina.jpg")
       }
     }
     res.style.textAlign = "center"
-    res.innerHTML = `Foi detectado a pessoa do gênero ${gênero} com ${idade} anos.`
+    res.innerHTML = `Detectado a pessoa do gênero ${gênero} com ${idade} anos.`
     res.appendChild(img)
   }
 }
