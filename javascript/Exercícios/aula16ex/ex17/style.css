@@ -22,6 +22,9 @@ section {
   box-shadow: 5px 6px 4px gray;
 }
 
+select#flista {
+  width: 150px;
+}
 
 footer {
   color: white;
